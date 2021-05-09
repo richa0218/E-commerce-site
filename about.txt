@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Supri Fashion</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="nav main-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </nav>
+            <h1 class="cloth-name cloth-name-large">SUPRI</h1>
+            <h2 class="fash">Fashion</h2>
+        </header>
+
+        <section class="content-section container">
+            <h2 class="section-header">ABOUT US</h2>
+            <img class="about-cloth-image" src="Images/abtimg.jpg">
+            <p>Supri Fashion is one of the unique online shopping sites in India where fashion is accessible to all. Check out our new arrivals to view the latest designer clothing in the market. You can get your hands on the trendiest style every season in western wear. You can also avail the best of ethnic fashion during all Indian festive occasions. You are sure to be impressed with our seasonal discounts. The end-of-season sale is the ultimate experience when fashion gets unbelievably affordable. Being host to a wide range of designs and styles from premium designers and brands, Supri Fashion is simply your perfect style guide as it aims to serve all your shopping requirements from the comfort of your home.</p>
+            <p>Enhance the online shopping of women's clothing experience as we at Supri Fashion have the best women's clothing online. We have got a tremendous collection of premium designer wear featuring varied colours, designs and styles because of which designer online shopping for women’s clothing has got easier than ever before. Thus, Supri Fashion endeavours to be a one-stop destination to serve all your shopping requirements.</p>
+        </section>
+        
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="connect">CONNECT WITH US</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="Images/Youtube.png">
+                        </a>
+                    </li>
+                   
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="Images/Facebook.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="Images/instagram.png">
+                        </a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

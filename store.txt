@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Supri Fashion</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Reggae One|Fascinate">
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </nav>
+            <h1 class="cloth-name cloth-name-large">SUPRI</h1>
+            <h2 class="fash">Fashion</h2>
+        </header>
+        <section class="container content-section">
+            <h2 class="collection">TOP COLLECTIONS</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <img class="shop-item-image" src="Images/first.png">
+                    <span class="shop-item-title">Multi-color Printed Crepe Dress</span>
+                    <div class="shop-item-details">
+                    <span class="shop-item-price">₹15800</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO BAG</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="Images/second.png">
+                    <span class="shop-item-title">Beige Khadi Crinkle Sleeve Dress</span>
+                    <span class="shop-item-title"></span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₹1650</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO BAG</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="Images/third.png">
+                    <span class="shop-item-title">Beige Floral Crop Top</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₹715</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO BAG</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="Images/fourth.png">
+                    <span class="shop-item-title">Black Floral Top</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₹1533</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO BAG</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="Images/fifth.png">
+                    <span class="shop-item-title">Green Embellished Dress</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₹1980</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO BAG</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="Images/six.png">
+                <span class="shop-item-title">White Solid Top</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₹650</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO BAG</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+     <section class="container content-section">
+            <h2 class="section-header">YOUR SHOPPING BAG</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">₹0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PROCEED TO BUY</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="connect">CONNECT WITH US</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="Images/Youtube.png">
+                        </a>
+                    </li>
+                   
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="Images/Facebook.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="Images/instagram.png">
+                        </a>
+                    </li>
+                 
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
